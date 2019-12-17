@@ -45,12 +45,12 @@ body {
         bottom: 0;
         left: 0;
         width: $banner-width;
-        height:85px;
+        height:82px;
 
         #logo {
             position: absolute;
-            width:60px;
-            bottom: 20px;
+            width:50px;
+            bottom: 15px;
             left: 20px;
 
         }
@@ -59,8 +59,8 @@ body {
     #cta {
         position: absolute;
         width:120px;
-        height:30px;
-        bottom: 100px;
+        height:22px;
+        bottom: 103px;
         right: 20px;
         background-color: rgba(245, 204, 2, 1);
     }
