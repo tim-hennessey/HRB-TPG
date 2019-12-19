@@ -39,12 +39,11 @@ app.Animation = (function () {
 		.set(img1, {display:'block'}, "+=.75");
 
 		tl2.to(txt1, .25, {opacity:1})
-		.to(txt1, .25, {opacity:0}, "+=2")
+		.to(txt1, .25, {opacity:0}, "+=3")
 
-		.to(txt2, .25, {opacity:1})
-		.to(txt2, .25, {opacity:0}, "+=3")
+		.to(txt3, .25, {opacity:1})
 
-		.to(txt3, .25, {opacity:1});
+		.to(txt2, .25, {opacity:1}, "+=2");
 	}
 
 	// --------------------------------------------------------------------------------------
