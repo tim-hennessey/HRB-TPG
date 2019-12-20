@@ -35,8 +35,8 @@ app.Animation = (function () {
 	// Starts the animation
 	function start() {
 
-		tl1.set(img1, {display:'none'}, "+=.75")
-		.set(img1, {display:'block'}, "+=.75");
+		tl1.set(img1, {display:'none'}, "+=.45")
+		.set(img1, {display:'block'}, "+=.45");
 
 		tl2.to(txt1, .25, {opacity:1})
 		.to(txt1, .25, {opacity:0}, "+=3")
