@@ -1,0 +1,94 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0.1px);
+}
+
+#border {
+    display: block;
+    width: $banner-width;
+    height: $banner-height;
+    pointer-events: none;
+    outline: solid 1px #000;
+    outline-offset: -1px;
+    z-index: 999;
+    position: absolute;
+}
+
+#banner {
+    background: #14AA40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    #footer {
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: $banner-width;
+        height:80px;
+
+        #logo {
+            position: absolute;
+            width:60px;
+            bottom: 10px;
+            left: 20px;
+
+        }
+
+        #cta {
+            position: absolute;
+            width:120px;
+            height:32px;
+            bottom: 24px;
+            right: 20px;
+            background-color: rgba(245, 204, 2, 1);
+        }
+    }
+
+        #txt1a {
+
+            clip: rect(0px,300px,84px,0px);
+        }
+
+        #grad1a {
+            // background-color: rgba(255, 255, 255, 1);
+            position: absolute;
+            left: 0;
+            top: -544px;
+            width: 300px;
+            // opacity: 0;
+        }
+
+        #txt1b {
+
+            clip: rect(87px, 300px, 121px, 0px);
+            // opacity: 0;
+        }
+
+        #grad1b {
+            // background-color: rgba(255, 255, 255, 1);
+            position: absolute;
+            top: -522px;
+            left: 0;
+            width: 300px;
+            // opacity: 0;
+        }   
+
+}
