@@ -1,0 +1,112 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(0, 0, 0.1px);
+}
+
+#border {
+        display: block;
+        width: $banner-width;
+        height: $banner-height;
+        pointer-events: none;
+        outline: solid 1px #000;
+        outline-offset: -1px;
+        z-index: 999;
+    }
+
+#banner {
+    background: #14AA40;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+
+    #txt1a {
+
+        clip: rect(0px,600px,40px,0px);
+    }
+
+    #grad1a {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1190px;
+        left: 105px;
+        // opacity:0;
+    }
+
+    #txt1b {
+
+        clip: rect(40px,600px,62px,0px);
+        // opacity: 0;
+    }
+
+    #grad1b {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1164px;
+        left: 105px;
+        // opacity:0;
+    }
+
+    #txt1c {
+
+        clip: rect(62px,600px,100px,0px);
+        // opacity: 0;
+    }
+
+    #grad1c {
+        width: $banner-width;
+        // background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        top: -1142px;
+        left: 105px;
+        // opacity:0;
+    }
+
+    #footer {
+        background-color: rgba(255, 255, 255, 1);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100px;
+        height:$banner-height;
+
+        #logo {
+            position: absolute;
+            width:78px;
+            bottom: 11px;
+            left: 11px;
+
+        }
+    }
+
+    #cta {
+        position: absolute;
+        width:129px;
+        height:35px;
+        bottom: 32px;
+        right: 20px;
+        background-color: rgba(245, 204, 2, 1);
+        
+    }
+    
+
+}
